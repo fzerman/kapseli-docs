@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Kapseli',
+  tagline: 'A UI Framework for creating a SPA dashboard application.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Swindler36', // Usually your GitHub org/user name.
+  projectName: 'Kapseli-UI-Framework', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Kapseli',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Kapseli UI Framework Logo',
         src: 'img/logo.svg',
       },
       links: [
@@ -49,15 +49,11 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/kapseli',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/developerstingy',
             },
           ],
         },
@@ -70,7 +66,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Swindler36/Kapseli-UI-Framework',
             },
           ],
         },
