@@ -11,7 +11,7 @@ module.exports = {
       title: 'Kapseli',
       logo: {
         alt: 'Kapseli UI Framework Logo',
-        src: 'img/logo.svg',
+        src: 'img/kapseli-logo.png',
       },
       links: [
         {
@@ -21,6 +21,10 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'docs/api', label: 'API', position: 'left'},
+        {to: 'ecosystem', label: 'Ecosystem', position: 'left'},
+        {to: 'support', label: 'Support', position: 'left'},
+        {to: 'translations', label: 'Translations', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
