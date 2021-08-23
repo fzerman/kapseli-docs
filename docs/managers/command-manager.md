@@ -1,4 +1,9 @@
-# Command Manager
+---
+id: command-manager
+title: Command Manager
+sidebar_title: Command Manager
+---
+
 Command Manager provides you deep extensibility with an API. You can create new commands or use built-in commands. Also, you can listen to other commands with the event manager.
 
 ## Events
