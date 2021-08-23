@@ -3,11 +3,7 @@ module.exports = {
     'introduction'
   ],
   api: [
-     {
-      type: 'category',
-      label: 'Managers',
-      collapsed: true,
-      items: [
+     Managers: [
         'storage-manager',
         'command-manager',
         'data-manager',
@@ -19,7 +15,6 @@ module.exports = {
         'plugin-manager',
         'route-manager',
         'view-manager'
-     ],
-     }
+     ]
   ],
 };
