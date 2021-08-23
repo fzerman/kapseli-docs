@@ -8,11 +8,10 @@ sidebar_label: Introduction
 Kapseli is a UI Framework for creating a SPA dashboard application. Kapseli is used for building SPA web apps, especially dashboard. You can build your web app quickly and without designing. 
 
 ## Features
-* Low Level Plugin API
+* Low Level API
 * Extendible Structure
 * Various UI Packages
 * Auto Form AJAX
-* 100% Virtual Dom
 * Built-in Route System
 * Customizable HTML Render Engine
 

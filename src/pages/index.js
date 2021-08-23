@@ -8,32 +8,53 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Low Level API</>,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Kapseli enables its low-level api to modify and extend. It has large scale Event-Listen-Network. You can use and listen all events thanks of this API.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>Extendible Structure</>,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Thanks of Low Level API of Kapseli, you can extend, even overwrite, its core functionality.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Various UI Packages</>,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Aren't you designer? Don't worry. Our plugin repository is rich. There are premium and free packages. 
+        If you want complicated and easy to use components, try premium packages. We will continue release new UI packages. Be patient.  
+      </>
+    ),
+  },
+  {
+    title: <>Auto Form AJAX</>,
+    description: (
+      <>
+        Kapseli has a connection with its storage manager to store form data automatically when the form is submitted. With this feature, collect data is pie.
+      </>
+    ),
+  },
+
+  {
+    title: <>Built-in Route System</>,
+    description: (
+      <>
+        Kapseli has built-in auto init router. Only register your pages. Routing is the task of Kapseli. Don't worry! 
+      </>
+    ),
+  },
+
+  {
+    title: <>Customizable HTML Render Engine</>,
+    description: (
+      <>
+        Kapseli has its own HTML Render Engine. No dependency! This engine is powered by Event-Listen-Network of Kapseli. You can customize it by using this network and the loew level API.
       </>
     ),
   },
@@ -43,11 +64,6 @@ function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={classnames('col col--4', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
       <h3>{title}</h3>
       <p>{description}</p>
     </div>
@@ -59,8 +75,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} - A UI Framework for creating a SPA dashboard application.`}
+      description="A UI Framework for creating a SPA dashboard application.">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -68,11 +84,19 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className={classnames(
+                'button button--primary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/introduction')}>
+              Get Started
+            </Link>
+            <Link
+              className={classnames(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/doc1')}>
-              Get Started
+              href="https://github.com/Swindler36/Kapseli-UI-Framework">
+              GitHub
             </Link>
           </div>
         </div>
