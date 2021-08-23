@@ -2,8 +2,8 @@ module.exports = {
   docs:[
     'introduction'
   ],
-  api: [
-     Managers: [
+  api: {
+     "Managers": [
         'storage-manager',
         'command-manager',
         'data-manager',
@@ -16,5 +16,5 @@ module.exports = {
         'route-manager',
         'view-manager'
      ]
-  ],
+  },
 };
