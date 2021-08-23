@@ -1,4 +1,9 @@
-# Storage Manager
+---
+id: storage-manager
+title: Storage Manager
+sidebar_title: Storage Manager
+---
+
 Storage Manager provides you the capability to manage multiple databases and ‘load’ and ‘store’ data with databases.
 
 ## Events
