@@ -4,8 +4,12 @@ module.exports = {
   ],
   api: [
     'api',
-     "Managers": [
-        'api/managers/app-manager',
+    {
+      type: 'category',
+      label: 'Managers',
+      collapsed: false,
+      items: [
+         'api/managers/app-manager',
         'api/managers/command-manager',
         'api/managers/data-manager',
         'api/managers/event-manager',
@@ -17,6 +21,7 @@ module.exports = {
         'api/managers/route-manager',
         'api/managers/storage-manager',
         'api/managers/view-manager'
-     ]
+      ]
+    }
   ],
 };
