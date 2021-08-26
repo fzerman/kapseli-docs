@@ -3,6 +3,7 @@ module.exports = {
     'introduction'
   ],
   api: {
+    'api',
      "Managers": [
         'api/managers/app-manager',
         'api/managers/command-manager',
