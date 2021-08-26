@@ -7,7 +7,6 @@ module.exports = {
     {
       type: 'category',
       label: 'Managers',
-      collapsed: false,
       items: [
          'api/managers/app-manager',
         'api/managers/command-manager',
