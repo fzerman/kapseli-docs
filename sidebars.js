@@ -2,7 +2,7 @@ module.exports = {
   docs:[
     'introduction'
   ],
-  api: {
+  api: [
     'api',
      "Managers": [
         'api/managers/app-manager',
@@ -18,5 +18,5 @@ module.exports = {
         'api/managers/storage-manager',
         'api/managers/view-manager'
      ]
-  },
+  ],
 };
