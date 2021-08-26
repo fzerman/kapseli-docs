@@ -26,7 +26,7 @@ module.exports = {
         {to: 'support', label: 'Support', position: 'left'},
         {to: 'translations', label: 'Translations', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Swindler36/Kapseli-UI-Framework',
           label: 'GitHub',
           position: 'right',
         },
