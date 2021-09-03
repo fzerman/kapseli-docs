@@ -71,7 +71,7 @@ function Ecosystem() {
                 filter.filter(f => f !== "idx")
             )
         }else{
-            setFilter([...filter,sets.id])
+            setFilter([...filter,idx])
         }
     }
 
