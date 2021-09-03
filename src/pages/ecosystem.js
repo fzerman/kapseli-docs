@@ -19,22 +19,24 @@ let PLUGINS = [
 function Plugin({ imageUrl, title, description, url }) {
     const imgUrl = useBaseUrl(imageUrl);
     return (
-        <div className="card">
-            <div className="card__image">
-                <img
-                    src={imgUrl}
-                    alt={title + " | " + description}
-                    title={title}
-                />
-            </div>
-            <div className="card__body">
-                <h4>{title}</h4>
-                <small>
-                    {description}
-                </small>
-            </div>
-            <div className="card__footer">
-                <a href={url} className="button button--primary button--block">See Details</a>
+        <div className="col col--4">
+            <div className="card">
+                <div className="card__image">
+                    <img
+                        src={imgUrl}
+                        alt={title + " | " + description}
+                        title={title}
+                    />
+                </div>
+                <div className="card__body">
+                    <h4>{title}</h4>
+                    <small>
+                        {description}
+                    </small>
+                </div>
+                <div className="card__footer">
+                    <a href={url} className="button button--primary button--block">See Details</a>
+                </div>
             </div>
         </div>
     );
@@ -66,12 +68,12 @@ function Ecosystem() {
     const [filter, setFilter] = React.useState([]);
 
     const chageFilter = (idx) => {
-        if(filter.includes(idx)){
+        if (filter.includes(idx)) {
             setFilter(
                 filter.filter(f => f !== "idx")
             )
-        }else{
-            setFilter([...filter,idx])
+        } else {
+            setFilter([...filter, idx])
         }
     }
 
@@ -86,10 +88,10 @@ function Ecosystem() {
                         {
                             FILTERS.map((sets, idx) => (
                                 <div className="margin-vert--xs">
-                                    <input type="checkbox" id={sets.id} onChange={()=>chageFilter(sets.id)} /><label htmlFor={sets.id}>{sets.label}</label>
+                                    <input type="checkbox" id={sets.id} onChange={() => chageFilter(sets.id)} /><label htmlFor={sets.id}>{sets.label}</label>
                                 </div>
                             ))
-                            }
+                        }
 
                     </div>
                     <div className="col col--9">
