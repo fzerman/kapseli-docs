@@ -70,7 +70,7 @@ function Ecosystem() {
     const chageFilter = (idx) => {
         if (filter.includes(idx)) {
             setFilter(
-                filter.filter(f => f !== "idx")
+                filter.filter(f => f !== idx)
             )
         } else {
             setFilter([...filter, idx])
