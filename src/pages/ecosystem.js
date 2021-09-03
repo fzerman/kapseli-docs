@@ -8,11 +8,11 @@ import styles from './styles.module.css';
 
 let PLUGINS = [
     {
-        imageUrl: "",
-        title: "",
-        description: "",
-        url: "",
-        tags: ["a", "b"]
+        imageUrl: "/img/kapseli-logo.png",
+        title: "Sample Plugin",
+        description: "This is a sample plugin. You can use it as a placeholder.",
+        url: "#",
+        tags: ["manager", "components"]
     }
 ]
 
