@@ -91,6 +91,9 @@ function Ecosystem() {
                 </div>
                 <div className="row">
                     <div className="col col--3">
+                        <div className="margin-vert--xs">
+                            <h3>Filters</h3>
+                        </div>
                         {
                             FILTERS.map((sets, idx) => (
                                 <div className="margin-vert--xs">
