@@ -82,10 +82,13 @@ function Ecosystem() {
             title={`${siteConfig.title} - A UI Framework for creating a SPA dashboard application.`}
             description="A UI Framework for creating a SPA dashboard application.">
 
-            <h1 className="padding-vert--lg">
-                Plugins
-            </h1>
+
             <main className="container">
+                <div className="row">
+                    <h1 className="padding-vert--lg">
+                        Plugins
+                    </h1>
+                </div>
                 <div className="row">
                     <div className="col col--3">
                         {
