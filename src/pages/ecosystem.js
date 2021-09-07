@@ -8,11 +8,18 @@ import styles from './styles.module.css';
 
 let PLUGINS = [
     {
-        imageUrl: "/img/kapseli-logo.png",
-        title: "Sample Plugin",
-        description: "This is a sample plugin. You can use it as a placeholder.",
+        imageUrl: "/img/plugin/basic-components-plugin-logo.png",
+        title: "Basic Components Plugin",
+        description: "Default UI Package for Kapseli. This package includes all default components.",
         url: "#",
-        tags: ["manager", "components"]
+        tags: ["components"]
+    },
+    {
+        imageUrl: "/img/plugin/ckeditor.png",
+        title: "Ckeditor Plugin",
+        description: "Ckeditor implementation for Kapseli. This package includes Ckeditor component.",
+        url: "#",
+        tags: ["components","third-party-service"]
     }
 ]
 
