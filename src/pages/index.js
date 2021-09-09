@@ -70,8 +70,10 @@ function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={classnames('col col--4', styles.feature)}>
-      <p>
-        <img src={imgUrl} alt={title}/>
+      <p style={{
+        display: "flex"
+      }}>
+        <img src={imgUrl} alt={title.innerText} style={{height: "14rem", margin: "auto"}}/>
       </p>
       <h3>{title}</h3>
       <p>{description}</p>
