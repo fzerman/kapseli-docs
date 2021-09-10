@@ -39,12 +39,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Docs',
+              to: 'docs/introduction',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'API',
+              to: 'docs/api',
             },
           ],
         },
@@ -75,7 +75,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Stingy Developer. All Rights Reserved.`,
     },
   },
   presets: [

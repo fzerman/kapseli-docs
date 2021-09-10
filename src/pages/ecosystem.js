@@ -103,7 +103,7 @@ function Ecosystem() {
                         </div>
                         {
                             FILTERS.map((sets, idx) => (
-                                <div className="margin-vert--xs">
+                                <div className="margin-vert--xs" key={idx}>
                                     <input type="checkbox" id={sets.id} onChange={() => chageFilter(sets.id)} /><label htmlFor={sets.id}>{sets.label}</label>
                                 </div>
                             ))
