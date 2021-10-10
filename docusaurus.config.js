@@ -7,6 +7,7 @@ module.exports = {
   organizationName: 'Swindler36', // Usually your GitHub org/user name.
   projectName: 'Kapseli-UI-Framework', // Usually your repo name.
   themeConfig: {
+    metadatas: [{name: 'google-site-verification', content: 'Kt_Iy1sUCJBc8qUaTei-ULKo1MnIYdHcmo1b5OLYoL4'}],
     navbar: {
       title: 'Kapseli',
       logo: {
