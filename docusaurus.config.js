@@ -101,6 +101,6 @@ module.exports = {
   ],
   scripts: [
     "https://www.googletagmanager.com/gtag/js?id=G-YWWJJ2YLKV",
-    "https://kapseli.stingydeveloper.com/js/google-analytics.js",
+    "https://cover.js.org/assets/goggle-analytics.js",
   ],
 };
