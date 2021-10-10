@@ -7,17 +7,6 @@ module.exports = {
   organizationName: "Swindler36", // Usually your GitHub org/user name.
   projectName: "Kapseli-UI-Framework", // Usually your repo name.
   themeConfig: {
-    googleAnalytics: {
-      trackingID: "G-YWWJJ2YLKV",
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
-    metadatas: [
-      {
-        name: "google-site-verification",
-        content: "Kt_Iy1sUCJBc8qUaTei-ULKo1MnIYdHcmo1b5OLYoL4",
-      },
-    ],
     navbar: {
       title: "Kapseli",
       logo: {
@@ -110,5 +99,8 @@ module.exports = {
       },
     ],
   ],
-  plugins: ["@docusaurus/plugin-google-analytics"],
+  scripts: [
+    "https://www.googletagmanager.com/gtag/js?id=G-YWWJJ2YLKV",
+    "https://kapseli.stingydeveloper.com/js/google-analytics.js",
+  ],
 };
