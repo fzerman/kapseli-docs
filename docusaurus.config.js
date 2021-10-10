@@ -1,77 +1,87 @@
 module.exports = {
-  title: 'Kapseli',
-  tagline: 'A UI Framework for creating a SPA dashboard application.',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'Swindler36', // Usually your GitHub org/user name.
-  projectName: 'Kapseli-UI-Framework', // Usually your repo name.
+  title: "Kapseli",
+  tagline: "A UI Framework for creating a SPA dashboard application.",
+  url: "https://your-docusaurus-test-site.com",
+  baseUrl: "/",
+  favicon: "img/favicon.ico",
+  organizationName: "Swindler36", // Usually your GitHub org/user name.
+  projectName: "Kapseli-UI-Framework", // Usually your repo name.
   themeConfig: {
-    metadatas: [{name: 'google-site-verification', content: 'Kt_Iy1sUCJBc8qUaTei-ULKo1MnIYdHcmo1b5OLYoL4'}],
+    googleAnalytics: {
+      trackingID: "G-YWWJJ2YLKV",
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
+    metadatas: [
+      {
+        name: "google-site-verification",
+        content: "Kt_Iy1sUCJBc8qUaTei-ULKo1MnIYdHcmo1b5OLYoL4",
+      },
+    ],
     navbar: {
-      title: 'Kapseli',
+      title: "Kapseli",
       logo: {
-        alt: 'Kapseli UI Framework Logo',
-        src: 'img/kapseli-logo.png',
+        alt: "Kapseli UI Framework Logo",
+        src: "img/kapseli-logo.png",
       },
       links: [
         {
-          to: 'docs/introduction',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          to: "docs/introduction",
+          activeBasePath: "docs",
+          label: "Docs",
+          position: "left",
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'docs/api', label: 'API', position: 'left'},
-        {to: 'ecosystem', label: 'Ecosystem', position: 'left'},
-        {to: 'support', label: 'Support', position: 'left'},
-        {to: 'translations', label: 'Translations', position: 'left'},
+        { to: "blog", label: "Blog", position: "left" },
+        { to: "docs/api", label: "API", position: "left" },
+        { to: "ecosystem", label: "Ecosystem", position: "left" },
+        { to: "support", label: "Support", position: "left" },
+        { to: "translations", label: "Translations", position: "left" },
         {
-          href: 'https://github.com/Swindler36/Kapseli-UI-Framework',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/Swindler36/Kapseli-UI-Framework",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Docs',
-              to: 'docs/introduction',
+              label: "Docs",
+              to: "docs/introduction",
             },
             {
-              label: 'API',
-              to: 'docs/api',
+              label: "API",
+              to: "docs/api",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/kapseli',
+              label: "Stack Overflow",
+              href: "https://stackoverflow.com/questions/tagged/kapseli",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/developerstingy',
+              label: "Twitter",
+              href: "https://twitter.com/developerstingy",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: "Blog",
+              to: "blog",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/Swindler36/Kapseli-UI-Framework',
+              label: "GitHub",
+              href: "https://github.com/Swindler36/Kapseli-UI-Framework",
             },
           ],
         },
@@ -81,24 +91,24 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/Swindler36/kapseli-docs/edit/main/docs/',
+          editUrl: "https://github.com/Swindler36/kapseli-docs/edit/main/docs/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Swindler36/kapseli-docs/edit/main/docs/blog/',
+            "https://github.com/Swindler36/kapseli-docs/edit/main/docs/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
   ],
+  plugins: ["@docusaurus/plugin-google-analytics"],
 };
