@@ -42,6 +42,7 @@ function Support() {
               free online tools.
             </p>
             <a
+            class="button button--outline button--secondary button--lg"
               href="https://www.patreon.com/bePatron?u=32387384"
               data-patreon-widget-type="become-patron-button"
             >
