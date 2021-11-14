@@ -7,6 +7,9 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 
 function Support() {
+  const context = useDocusaurusContext();
+    const { siteConfig = {} } = context;
+  
   useEffect(() => {
     (function (d, s, id) {
       var js,
