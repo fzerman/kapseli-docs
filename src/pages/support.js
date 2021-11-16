@@ -7,6 +7,9 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 
 function Support() {
+  const context = useDocusaurusContext();
+  const { siteConfig = {} } = context;
+
   useEffect(() => {
     function load(d, s, id, src) {
       var js,
@@ -52,6 +55,7 @@ function Support() {
               free online tools.
             </p>
             <a
+              class="button button--outline button--secondary button--lg"
               href="https://www.patreon.com/bePatron?u=32387384"
               data-patreon-widget-type="become-patron-button"
             >
