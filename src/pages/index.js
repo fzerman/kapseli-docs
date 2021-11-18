@@ -5,73 +5,74 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
+import Translate, { translate } from "@docusaurus/Translate";
 
 const features = [
   {
     imageUrl: "/img/low-level-api.svg",
-    title: <>Low Level API</>,
+    title: <Translate>Low Level API</Translate>,
     description: (
-      <>
+      <Translate>
         Kapseli has a low-level API to modify and extend it. It has also a
         large-scale Event-Listen-Network. You can add event listeners to all
         events thanks to this API.
-      </>
+      </Translate>
     ),
   },
   {
     imageUrl: "/img/structure.svg",
-    title: <>Extendible Structure</>,
+    title: <Translate>Extendible Structure</Translate>,
     description: (
-      <>
+      <Translate>
         Thanks to the low-level API of Kapseli, you can extend, even overwrite,
         its core functionality.
-      </>
+      </Translate>
     ),
   },
   {
     imageUrl: "/img/ui.svg",
-    title: <>Various UI Packages</>,
+    title: <Translate>Various UI Packages</Translate>,
     description: (
-      <>
+      <Translate>
         Aren't you a designer? Don't worry. Our plugin repository is rich. There
         are premium and free plugins. If you want complicated and easy-to-use
         components, try premium packages. We will continue to release new UI
         packages.
-      </>
+      </Translate>
     ),
   },
   {
     imageUrl: "/img/form.svg",
-    title: <>Auto Form AJAX</>,
+    title: <Translate>Auto Form AJAX</Translate>,
     description: (
-      <>
+      <Translate>
         Kapseli has a connection with its storage manager to async form data
         automatically when the form is submitted. With this feature, collecting
         data is pie.
-      </>
+      </Translate>
     ),
   },
 
   {
     imageUrl: "/img/route.svg",
-    title: <>Built-in Route System</>,
+    title: <Translate>Built-in Route System</Translate>,
     description: (
-      <>
+      <Translate>
         Kapseli has built-in auto init router. Only register your pages. Routing
         is the task of Kapseli. Don't worry!
-      </>
+      </Translate>
     ),
   },
 
   {
     imageUrl: "/img/render-engine.svg",
-    title: <>Customizable HTML Render Engine</>,
+    title: <Translate>Customizable HTML Render Engine</Translate>,
     description: (
-      <>
+      <Translate>
         Kapseli has a HTML Render Engine. No dependency! This engine is powered
         by the Event-Listen-Network of Kapseli. You can customize it by using
         this network and the low-level API.
-      </>
+      </Translate>
     ),
   },
 ];
