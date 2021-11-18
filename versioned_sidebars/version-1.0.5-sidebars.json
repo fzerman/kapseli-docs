@@ -1,0 +1,74 @@
+{
+  "version-1.0.5/docs": [
+    {
+      "type": "doc",
+      "id": "version-1.0.5/introduction"
+    },
+    {
+      "type": "doc",
+      "id": "version-1.0.5/getting-started"
+    }
+  ],
+  "version-1.0.5/api": [
+    {
+      "type": "doc",
+      "id": "version-1.0.5/api"
+    },
+    {
+      "type": "category",
+      "label": "Managers",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-1.0.5/api/managers/app-manager"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0.5/api/managers/command-manager"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0.5/api/managers/data-manager"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0.5/api/managers/event-manager"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0.5/api/managers/form-manager"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0.5/api/managers/i18n"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0.5/api/managers/modal-manager"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0.5/api/managers/panel-manager"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0.5/api/managers/plugin-manager"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0.5/api/managers/route-manager"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0.5/api/managers/storage-manager"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0.5/api/managers/view-manager"
+        }
+      ],
+      "collapsible": true,
+      "collapsed": true
+    }
+  ]
+}
