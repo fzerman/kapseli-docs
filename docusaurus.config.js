@@ -3,7 +3,7 @@ module.exports = {
   tagline: "A UI Framework for creating a SPA dashboard application.",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
-  favicon: "img/favicon.ico",
+  favicon: "/img/favicon.ico",
   organizationName: "Swindler36", // Usually your GitHub org/user name.
   projectName: "Kapseli-UI-Framework", // Usually your repo name.
   themeConfig: {
@@ -11,9 +11,9 @@ module.exports = {
       title: "Kapseli",
       logo: {
         alt: "Kapseli UI Framework Logo",
-        src: "img/kapseli-logo.png",
+        src: "/img/kapseli-logo.png",
       },
-      links: [
+      items: [
         {
           to: "docs/introduction",
           activeBasePath: "docs",
@@ -22,9 +22,24 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         { to: "docs/api", label: "API", position: "left" },
-        { to: "ecosystem", label: "Ecosystem", position: "left" },
+        {
+          type: "dropdown",
+          label: "Ecosystem",
+          position: "left",
+          items: [
+            {
+              to: "ecosystem/plugins",
+              label: "Plugins",
+            },
+          ],
+        },
         { to: "support", label: "Support", position: "left" },
-        { to: "translations", label: "Translations", position: "left" },
+        { type: "localeDropdown", position: "right" },
+        {
+          type: "docsVersionDropdown",
+          position: "right",
+        },
+
         {
           href: "https://github.com/Swindler36/Kapseli-UI-Framework",
           label: "GitHub",
@@ -103,4 +118,8 @@ module.exports = {
     "https://www.googletagmanager.com/gtag/js?id=G-YWWJJ2YLKV",
     "https://cover.js.org/assets/goggle-analytics.js",
   ],
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "tr"],
+  },
 };
