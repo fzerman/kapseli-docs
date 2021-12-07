@@ -73,7 +73,7 @@ let FILTERS = [
   },
 ];
 
-function Ecosystem() {
+function Plugins() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
 
@@ -93,9 +93,7 @@ function Ecosystem() {
       description="A UI Framework for creating a SPA dashboard application."
     >
       <main className="container">
-        <div className="row">
-          <h1 className="padding-vert--lg">Plugins</h1>
-        </div>
+        <h1 className="padding-vert--lg">Plugins</h1>
         <div className="row">
           <div className="col col--3">
             <div className="margin-vert--xs">
@@ -140,4 +138,4 @@ function Ecosystem() {
   );
 }
 
-export default Ecosystem;
+export default Plugins;

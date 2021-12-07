@@ -1,7 +1,7 @@
 module.exports = {
   title: "Kapseli",
   tagline: "A UI Framework for creating a SPA dashboard application.",
-  url: "https://your-docusaurus-test-site.com",
+  url: "http://kapseli.stingydeveloper.com",
   baseUrl: "/",
   favicon: "/img/favicon.ico",
   organizationName: "Swindler36", // Usually your GitHub org/user name.
@@ -122,4 +122,6 @@ module.exports = {
     defaultLocale: "en",
     locales: ["en", "tr"],
   },
+
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
 };
