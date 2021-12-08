@@ -6,7 +6,7 @@ sidebar_label: Plugins
 
 You can find official plugins on [ecosystem page](https://kapseli.stingydeveloper.com/ecosystem). Also, you can write your custom plugins.
 
-## Writing a plugin
+## Writing a plugin {#writing-a-plugin}
 
 Kapseli plugins consist of a fuunction. This function includes 2 parameters app and plugin options.
 
@@ -16,19 +16,19 @@ Kapseli.plugins.add("plugin-name", (app, options) => {
 });
 ```
 
-## Registering a component
+## Registering a component {#registering-a-component}
 
 ```js
 app.View.addComponent("COMPONENT-NAME", Component_Class);
 ```
 
-## Registering a command
+## Registering a command {#registering-a-command}
 
 ```js
 app.Command.add("command_name", command_function);
 ```
 
-## Adding a event listener
+## Adding a event listener {#adding-a-event-listener}
 
 ```js
 app.Event.on("event_name", event_listener_function);

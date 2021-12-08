@@ -6,7 +6,7 @@ sidebar_title: Panel Manager
 
 Panel Manager provides an API to create custom panels in two types on your app. There are two panel types such as float, static.
 
-## Events
+## Events {#events}
 * `panel:{panelID}:show` => Fires when panel show()
 * `panel:{panelID}:hide` => Fires when panel hide()
 * `panel:{panelID}:show:before` => Fires before panel show()
@@ -14,7 +14,7 @@ Panel Manager provides an API to create custom panels in two types on your app. 
 * `panel:{panelID}:show:after` => Fires after panel show()
 * `panel:{panelID}:hide:after` => Fires after panel hide()
 
-## Functions
+## Functions {#functions}
 
 * show(panelID)
 * hide(panelID)
@@ -27,7 +27,7 @@ Panel Manager provides an API to create custom panels in two types on your app. 
 * getAll
 * setConfig(panelID,config)
 
-## Panels
+## Panels {#panels}
 
 ID|Name|Type
 ---|---|---
@@ -39,7 +39,7 @@ ID|Name|Type
 `status`|Status Panel| Static
 `bot-pan`|Bottom Panel| Float
 
-## Panel Configs
+## Panel Configs {#panel-configs}
 
 
 Config|Default|Purpose

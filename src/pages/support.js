@@ -20,15 +20,8 @@ function Support() {
           <h1 className="padding-vert--lg">Support</h1>
         </div>
         <div className="row">
-          <div className="col col--12">
-            <h2>Pareon</h2>
-            <p>
-              Stingy Developer is a content and product creator on web. I
-              develop apps, website templates, themes and plugins. Also, you can
-              hire me for your projects. Sometimes, I publish podcasts, videos
-              or articles. You can donate me for my open-source projects and
-              free online tools.
-            </p>
+          <div className="col col--4">
+            <h2>Patreon</h2>
             <a
               class="button button--outline button--secondary button--lg"
               href="https://www.patreon.com/bePatron?u=32387384"
@@ -36,7 +29,7 @@ function Support() {
               Become a Patron!
             </a>
           </div>
-          <div className="col col--12">
+          <div className="col col--4">
             <h2>Buy Me a Coffee</h2>
             <a
               class="button button--outline button--secondary button--lg"
@@ -46,7 +39,7 @@ function Support() {
               Buy Me A Coffee!
             </a>
           </div>
-          <div className="col col--12">
+          <div className="col col--4">
             <h2>Kreosus</h2>
             <a
               class="button button--outline button--secondary button--lg"

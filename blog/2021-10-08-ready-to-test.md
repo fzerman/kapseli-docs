@@ -8,7 +8,7 @@ author_image_url: https://avatars.githubusercontent.com/u/59289764?s=400&u=1e9e0
 tags: [dev-release, pre-alpha]
 ---
 
-## What's Changed
+## What's Changed {#whats-changed}
 
 - Adding Translate Support to Kapseli by @Swindler36 in https://github.com/Stingy-Developer/Kapseli-UI-Framework/pull/3
 - Jsx support by @Swindler36 in https://github.com/Stingy-Developer/Kapseli-UI-Framework/pull/4
@@ -19,7 +19,7 @@ tags: [dev-release, pre-alpha]
 - Bump webpack from 5.41.1 to 5.55.1 by @dependabot in https://github.com/Stingy-Developer/Kapseli-UI-Framework/pull/26
 - Bump core-js from 3.16.2 to 3.18.1 by @dependabot in https://github.com/Stingy-Developer/Kapseli-UI-Framework/pull/24
 
-## New Contributors
+## New Contributors {#new-contributors}
 
 - @Swindler36 made their first contribution in https://github.com/Stingy-Developer/Kapseli-UI-Framework/pull/1
 - @dependabot made their first contribution in https://github.com/Stingy-Developer/Kapseli-UI-Framework/pull/5

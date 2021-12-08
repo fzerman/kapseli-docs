@@ -4,7 +4,7 @@ title: Getting Started
 sidebar_label: Getting Started
 ---
 
-## Setup
+## Setup {#setup}
 
 For setup Kapseli, firstly, you should import Kapseli to your project. For details go to Installation Page.
 
@@ -18,7 +18,7 @@ App.render(); // This function is required.
 
 `Kapseli.render(...)` is required for rendering and running all application constructions.
 
-### Config Setup
+### Config Setup {#config-setup}
 
 ```js
 
@@ -42,7 +42,7 @@ const App = Kapseli.init({
 });
 ```
 
-### Config Details
+### Config Details {#config-details}
 
 - [Event Manager](/docs/api/managers/event-manager/)
 - [Storage Manager](/docs/api/managers/storage-manager/)

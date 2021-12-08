@@ -6,13 +6,13 @@ sidebar_title: Modal Manager
 
 Modal Manager provides an API to create modals in several types on your app.
 
-## Events
+## Events {#events}
 * `modal:open`
 * `model:close`
 * `modal:open:{modalID}`
 * `model:close:{modalID}`
 
-## Functions
+## Functions {#functions}
 * add
 * remove
 * get
@@ -20,7 +20,7 @@ Modal Manager provides an API to create modals in several types on your app.
 * setOpen
 * getModals
 
-### Modal Object Functions
+### Modal Object Functions {#modal-object-functions}
 * open
 * close
 * getTitle

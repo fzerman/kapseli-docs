@@ -6,7 +6,7 @@ sidebar_title: Event Manager
 
 Event Manager creates an extensive signal network between the modules. So that, you can listen to all events on the app and extend the functionality of the core of the framework.
 
-## Functions
+## Functions {#functions}
 
 * register
 * remove

@@ -6,7 +6,7 @@ sidebar_title: Command Manager
 
 Command Manager provides you deep extensibility with an API. You can create new commands or use built-in commands. Also, you can listen to other commands with the event manager.
 
-## Events
+## Events {#events}
 
 - `run` => Fires when any command run.
 - `stop` => Fires when any command stop.
@@ -17,9 +17,9 @@ Command Manager provides you deep extensibility with an API. You can create new 
 - `abort` => Fires when any command abort.
 - `abort:{commandName}` => Fires when `commandName` command abort.
 
-## Functions
+## Functions {#functions}
 
-#### add(command,cb)
+#### add(command,cb) {#addcommandcb}
 
 Parameters:
 
@@ -30,7 +30,7 @@ It registers command with callback.
 
 Returns anything.
 
-#### get(command)
+#### get(command) {#getcommand}
 
 Parameters:
 
@@ -40,7 +40,7 @@ It returns command.
 
 Returns `Command Object` or `false`.
 
-#### has(command)
+#### has(command) {#hascommand}
 
 Parameters:
 
@@ -50,7 +50,7 @@ It checks command there is.
 
 Returns `Boolean`.
 
-#### getAll()
+#### getAll() {#getall}
 
 No Parameters
 
@@ -58,7 +58,7 @@ It returns `Command Object` Array.
 
 Returns [`Command Object`].
 
-#### run(command,args)
+#### run(command,args) {#runcommandargs}
 
 Parameters:
 
@@ -69,7 +69,7 @@ It runs `command` command.
 
 Returns if there is no command `false` or `None`.
 
-#### stop(command,args)
+#### stop(command,args) {#stopcommandargs}
 
 Parameters:
 
@@ -80,7 +80,7 @@ It stops `command` command.
 
 Returns if there is no command `false` or `None`.
 
-#### isActive(command)
+#### isActive(command) {#isactivecommand}
 
 Parameters:
 
@@ -90,7 +90,7 @@ It checks command is active.
 
 Returns `Boolean`.
 
-#### getActives()
+#### getActives() {#getactives}
 
 No Parameter
 

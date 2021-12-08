@@ -4,16 +4,16 @@ title: App Manager
 sidebar_title: App Manager
 ---
 
-## Events
+## Events {#events}
 
 - `app:init` => Fires after running `init()` function.
 - `app:render` => Fires after running `render()` function.
 - `app:refresh` => Fires after running `refresh()` function.
 - `app:locale` => Fires after running `setLocale()` function. Pass locale code as a parameter.
 
-## Functions
+## Functions {#functions}
 
-#### init(config)
+#### init(config) {#initconfig}
 
 Parameter config as `Object`.
 
@@ -21,7 +21,7 @@ It is initialized your Kapseli application.
 
 Returns an Kapseli Object.
 
-#### store(data)
+#### store(data) {#storedata}
 
 Parameter data as `Object`.
 
@@ -29,7 +29,7 @@ It is sent data to your current storage in JSON format.
 
 Returns anything.
 
-#### load(data)
+#### load(data) {#loaddata}
 
 Parameter data as `Object`.
 
@@ -37,7 +37,7 @@ It is got data to your current storage in JSON format.
 
 Returns anything.
 
-#### render()
+#### render() {#render}
 
 Parameter anything.
 
@@ -45,7 +45,7 @@ It is rendered and run all application constructions.
 
 Returns anything.
 
-#### refresh(config)
+#### refresh(config) {#refreshconfig}
 
 Parameter config as `Object`.
 
@@ -53,7 +53,7 @@ It is re-init and re-rendered your Kapseli application.
 
 Returns anything.
 
-#### on(event,cb)
+#### on(event,cb) {#oneventcb}
 
 Parameters
 
@@ -64,7 +64,7 @@ It is connected your function to event.
 
 Returns anything.
 
-#### once(event,cb)
+#### once(event,cb) {#onceeventcb}
 
 Parameters
 
@@ -75,7 +75,7 @@ It is connected your function to event. However, it is removed your function aft
 
 Returns anything.
 
-#### off(event)
+#### off(event) {#offevent}
 
 Parameter event as `String`
 
@@ -83,7 +83,7 @@ It is unregistered event. However, you shouldn't unregister built-in events. Thi
 
 Returns anything.
 
-#### setLocale(locale_key)
+#### setLocale(locale_key) {#setlocalelocale_key}
 
 Parameter locale_key as `String`
 
@@ -91,7 +91,7 @@ It is setted locale language. If you have I18n messages, Kapseli will translate 
 
 Returns anything.
 
-## Modules
+## Modules {#modules}
 
 - Command
 - $components

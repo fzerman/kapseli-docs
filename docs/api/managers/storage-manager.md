@@ -6,7 +6,7 @@ sidebar_title: Storage Manager
 
 Storage Manager provides you the capability to manage multiple databases and ‘load’ and ‘store’ data with databases.
 
-## Events
+## Events {#events}
 * `storage:start` - Before the storage request is started
 * `storage:start:store` - Before the store request. The object to store is passed as an argumnet (which you can edit)
 * `storage:start:load` - Before the load request. Items to load are passed as an argumnet (which you can edit)
@@ -19,7 +19,7 @@ Storage Manager provides you the capability to manage multiple databases and ‘
 * `storage:error:store` - Error on store request, passes the error as an argument
 * `storage:error:load` - Error on load request, passes the error as an argument
 
-## Functions
+## Functions {#functions}
 * getConfig()
 * add(label,config)
 * get(label)

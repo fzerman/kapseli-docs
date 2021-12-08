@@ -6,7 +6,7 @@ sidebar_title: Data Manager
 
 Data Manager is a functionality class to manipulate data to use storage manager.
 
-## Events
+## Events {#events}
 * `data:get` => get()
 * `data:set` => set()
 * `data:update` => update()
@@ -14,7 +14,7 @@ Data Manager is a functionality class to manipulate data to use storage manager.
 * `data:dump` => dump()
 * `data:load` => load()
 
-## Functions
+## Functions {#functions}
 * get
 * set
 * update

@@ -6,7 +6,7 @@ sidebar_title: Form Manager
 
 Form Manager provides a useful interface to create forms on your apps. Also, it has a connection to the storage manager to store form data automatically when the form is submitted.
 
-## Functions
+## Functions {#functions}
 
 * add(form)
 * remove(form_or_form_id)
@@ -14,7 +14,7 @@ Form Manager provides a useful interface to create forms on your apps. Also, it 
 * getAll()
 
 
-## Form Object Functions
+## Form Object Functions {#form-object-functions}
 
 * addField(label,input)
 * setSubmit

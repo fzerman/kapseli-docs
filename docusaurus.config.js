@@ -34,7 +34,6 @@ module.exports = {
           ],
         },
         { to: "support", label: "Support", position: "left" },
-        { type: "localeDropdown", position: "right" },
         {
           type: "docsVersionDropdown",
           position: "right",
@@ -118,10 +117,6 @@ module.exports = {
     "https://www.googletagmanager.com/gtag/js?id=G-YWWJJ2YLKV",
     "https://cover.js.org/assets/goggle-analytics.js",
   ],
-  i18n: {
-    defaultLocale: "en",
-    locales: ["en", "tr"],
-  },
 
   plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
 };
