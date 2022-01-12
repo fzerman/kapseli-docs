@@ -23,3 +23,20 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.video-responsive {
+  overflow: hidden;
+  position: relative;
+  height: 0;
+  width: 95vw;
+  padding-bottom: calc(95vw * 56.25 / 100);
+  margin: auto;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

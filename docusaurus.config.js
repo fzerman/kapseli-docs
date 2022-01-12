@@ -1,6 +1,7 @@
 module.exports = {
   title: "Kapseli",
-  tagline: "A UI Framework for creating a SPA dashboard application.",
+  tagline:
+    "A Framework for creating a SPA dashboard application. Designed for performance and flexibility.",
   url: "http://kapseli.stingydeveloper.com",
   baseUrl: "/",
   favicon: "/img/favicon.ico",
@@ -97,6 +98,8 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/Swindler36/kapseli-docs/edit/main/docs/",
@@ -108,7 +111,11 @@ module.exports = {
             "https://github.com/Swindler36/kapseli-docs/edit/main/docs/blog/",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: [
+            require.resolve("./src/css/custom.css"),
+            require.resolve("./src/css/utility.css"),
+            require.resolve("./src/css/dist/chevron.min.css"),
+          ],
         },
       },
     ],

@@ -1,5 +1,19 @@
 module.exports = {
-  docs: ["introduction", "getting-started"],
+  docs: [
+    "introduction",
+    "getting-started",
+    {
+      type: "category",
+      label: "Template Syntax",
+      items: [
+        "template-syntax/template-introduction",
+        "template-syntax/template-generators",
+      ],
+    },
+
+    "components",
+    "plugins",
+  ],
   api: [
     "api",
     {

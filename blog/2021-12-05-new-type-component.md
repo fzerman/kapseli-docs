@@ -10,6 +10,8 @@ tags: [new, component-type, pre-alpha, component]
 
 Hello everyone, today I am glad to introduce our **new class-based components**. These components are more flexible and more performance together.
 
+![new-type-components-1-0-6](/img/new-type-components-1-0-6.jpg)
+
 Lets' get started!
 
 **Old type class-based components** provide a connection among the same type components. Therefore, when you changed the data of one of them, others also changed their data and re-render their templates. This situation causes **the loss of performance and the loss of the reusability** of components.

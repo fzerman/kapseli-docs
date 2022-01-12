@@ -4,11 +4,11 @@ title: Plugins
 sidebar_label: Plugins
 ---
 
-You can find official plugins on [ecosystem page](https://kapseli.stingydeveloper.com/ecosystem). Also, you can write your custom plugins.
+Kapseli Plugin API provide a functionality to extend the core of the Kapseli. With a plugin, you can add component packages, custom managers, some technical supports, and third party service implementaions to Kapseli. You can find official plugins on [ecosystem page](/ecosystem/plugins). Also, you can write your custom plugins.
 
 ## Writing a plugin {#writing-a-plugin}
 
-Kapseli plugins consist of a fuunction. This function includes 2 parameters app and plugin options.
+Kapseli plugins consist of a function. This function includes 2 parameters app and plugin options.
 
 ```js
 Kapseli.plugins.add("plugin-name", (app, options) => {
@@ -34,4 +34,4 @@ app.Command.add("command_name", command_function);
 app.Event.on("event_name", event_listener_function);
 ```
 
-You can read our [api documentation](https://kapseli.stingydeveloper.com/docs/api) for more details.
+You can read our [api documentation](/docs/api) for more details.
