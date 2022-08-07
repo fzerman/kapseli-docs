@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Kapseli",
+  title: "Kapseli Framework",
   tagline:
     "A Framework for creating a SPA dashboard application. Designed for performance and flexibility.",
   url: "http://kapseli.stingydeveloper.com",
@@ -34,7 +34,25 @@ module.exports = {
             },
           ],
         },
-        { to: "support", label: "Support", position: "left" },
+        {
+          type: "dropdown",
+          label: "Support",
+          position: "left",
+          items: [
+            {
+              label: "Become a Patron!",
+              href: "https://www.patreon.com/bePatron?u=32387384",
+            },
+            {
+              label: "Buy Me a Coffee",
+              href: "https://www.buymeacoffee.com/stingydev",
+            },
+            {
+              label: "Support on Kreosus!",
+              href: "https://kreosus.com/stingydev",
+            },
+          ],
+        },
         {
           type: "docsVersionDropdown",
           position: "right",

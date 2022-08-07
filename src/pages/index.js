@@ -104,24 +104,24 @@ function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
 
-  useEffect(() => {
-    let iFrames = document.querySelectorAll("iframe");
-    for (let i = 0; i < iFrames.length; i++) {
-      const iFrame = iFrames[i];
-      let doc = iFrame.contentDocument;
-      doc.body.innerHTML =
-        doc.body.innerHTML +
-        `<style>.gist-meta {
-          display: none;
-        }
-        .gist-file{
-          filter: invert(1);
-        }
-        .highlight {
-          margin: .5rem!important;
-        }</style>`;
-    }
-  }, []);
+  // useEffect(() => {
+  //   let iFrames = document.querySelectorAll("iframe");
+  //   for (let i = 0; i < iFrames.length; i++) {
+  //     const iFrame = iFrames[i];
+  //     let doc = iFrame.contentDocument;
+  //     doc.body.innerHTML =
+  //       doc.body.innerHTML +
+  //       `<style>.gist-meta {
+  //         display: none;
+  //       }
+  //       .gist-file{
+  //         filter: invert(1);
+  //       }
+  //       .highlight {
+  //         margin: .5rem!important;
+  //       }</style>`;
+  //   }
+  // }, []);
 
   return (
     <Layout
@@ -196,9 +196,9 @@ function Home() {
         </div>
       </header>
       <main>
-        <section className="py-5">
+        {/* <section className="py-5">
           <YouTubeEmbed embedId="rokGy0huYEA" />
-        </section>
+        </section> */}
         {features && features.length && (
           <section className={styles.features}>
             <div className="container">
