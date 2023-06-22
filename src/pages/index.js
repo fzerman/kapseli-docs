@@ -12,45 +12,37 @@ import Gist from "react-gist";
 const features = [
   {
     imageUrl: "/img/low-level-api.svg",
-    title: <>Low Level API</>,
+    title: <>Powerful Low-Level API</>,
     description: (
       <>
-        Kapseli has a low-level API to modify and extend it. It has also a
-        large-scale Event-Listen-Network. You can add event listeners to all
-        events thanks to this API.
+        Kapseli provides a robust low-level API that allows you to modify and extend its functionality. With its extensive Event-Listen-Network, you have the ability to utilize and listen to all events effortlessly.
       </>
     ),
   },
   {
     imageUrl: "/img/structure.svg",
-    title: <>Extendible Structure</>,
+    title: <>Flexible and Extensible Structure</>,
     description: (
       <>
-        Thanks to the low-level API of Kapseli, you can extend, even overwrite,
-        its core functionality.
+        Leveraging the Low-Level API of Kapseli, you have the freedom to easily extend and even overwrite its core features. Shape Kapseli according to your unique requirements and preferences.
       </>
     ),
   },
   {
     imageUrl: "/img/ui.svg",
-    title: <>Various UI Packages</>,
+    title: <>Diverse Selection of UI Packages</>,
     description: (
       <>
-        Aren't you a designer? Don't worry. Our plugin repository is rich. There
-        are premium and free plugins. If you want complicated and easy-to-use
-        components, try premium packages. We will continue to release new UI
-        packages.
+        No design background? No problem! Our plugin repository offers a wide range of UI packages, including both premium and free options. Whether you're looking for sophisticated or user-friendly components, explore our premium packages. We are committed to regularly releasing new UI packages, so stay tuned!
       </>
     ),
   },
   {
     imageUrl: "/img/form.svg",
-    title: <>Auto Form AJAX</>,
+    title: <>Effortless Auto Form AJAX</>,
     description: (
       <>
-        Kapseli has a connection with its storage manager to async form data
-        automatically when the form is submitted. With this feature, collecting
-        data is pie.
+        Kapseli seamlessly integrates with its storage manager, automatically storing form data upon submission. Simplify your data collection process with this convenient feature.
       </>
     ),
   },
@@ -60,8 +52,7 @@ const features = [
     title: <>Built-in Route System</>,
     description: (
       <>
-        Kapseli has built-in auto init router. Only register your pages. Routing
-        is the task of Kapseli. Don't worry!
+        Leave the hassle of routing to Kapseli. With its built-in auto init router, all you need to do is register your pages. Kapseli takes care of the rest, ensuring smooth navigation throughout your application.
       </>
     ),
   },
@@ -71,9 +62,7 @@ const features = [
     title: <>Customizable HTML Render Engine</>,
     description: (
       <>
-        Kapseli has a HTML Render Engine. No dependency! This engine is powered
-        by the Event-Listen-Network of Kapseli. You can customize it by using
-        this network and the low-level API.
+       Kapseli boasts its own HTML Render Engine, completely independent of any external dependencies. This engine is powered by Kapseli's Event-Listen-Network. Take full control of the rendering process by leveraging this network and the powerful low-level API.
       </>
     ),
   },
